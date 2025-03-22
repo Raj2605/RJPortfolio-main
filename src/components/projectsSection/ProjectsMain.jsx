@@ -2,27 +2,30 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import img1 from "../../assets/images/website-img-1.jpg";
+import img2 from "../../assets/images/website-img-2.webp";
+import img3 from "../../assets/images/website-img-3.jpg"; 
 
 const projects = [
   {
     name: "Personal Portfolio",
     year: "Sep 2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: img1,
     link: "https://personal-portfolio-mansi.vercel.app/",
   },
   {
     name: "Hematite Infotech",
     year: "Sep 2024",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: img2,
     link: "http://hematitecorp.com/",
   },
   {
     name: "Real Estate",
     year: "Nov 2024",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: img3,
     link: "#",
   },
 ];
